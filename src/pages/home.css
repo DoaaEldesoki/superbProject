@@ -1,0 +1,50 @@
+body{
+    /* background-color: #614e2bc2; */
+}
+.font-link{
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+  .title{
+    color: #ccae77;
+  }
+  .paragraph{
+    /* color: aliceblue; */
+    color: black;
+  }
+  p{
+    font-size: 1.5rem;
+    text-align: justify;
+
+  }
+
+  .divimg {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    background-color: #ccae77;
+}
+.header {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+img {
+  border-radius: 5px;
+}
+.lastitem{
+  margin-bottom: 25px;
+}
+.whatsapp-button{
+  position: fixed;  right: 15px; bottom: 15px;
+  color: #ccae77;
+}
+.whatsapp-button:hover{
+  color: green;
+}

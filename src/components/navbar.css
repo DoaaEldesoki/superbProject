@@ -1,0 +1,10 @@
+.navbar{
+    background-color: #231f1e  !important;
+}
+.navbar ul a {
+font-size: larger;
+/* color: wheat !important; */
+}
+a.nav-link{
+    color: #ab894a !important
+}
