@@ -44,7 +44,7 @@ export const Footer = () => {
           <p><FontAwesomeIcon  className='icon' icon={faLocationDot} /> 9 Mohamed Badawy st, Nasr City, Cairo, Egypt</p>
           <p>
           <FontAwesomeIcon className='icon' icon={faEnvelope} />
-            info@superb.com
+            info@superbforadv.com
           </p>
           <p><FontAwesomeIcon className='icon' icon={faPhone} />+ 20 10 111 158 89</p>
           <p><FontAwesomeIcon className='icon' icon={faPhone} /> + 20 15 589 230 00</p>
