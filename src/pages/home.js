@@ -23,7 +23,7 @@ export const Home = () => {
                 style={{
                     height: '85vh'
                 }}>
-                <p className='header font-link'> We've got the creative. <br /> we will do a great work.<br /> Let's do this </p>
+                <p className='header font-link'> We've got the creativeee. <br /> we will do a great work.<br /> Let's do this </p>
             </div>
             <div id='aboutUs'>
                 <section class="page-section " data-aos="fade-up"
