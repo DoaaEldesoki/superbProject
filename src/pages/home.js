@@ -3,14 +3,19 @@ import img2 from '../images/My project-1.jpg'
 import img3 from '../images/img3.jpeg'
 import img4 from '../images/img4.jpeg'
 import logo from '../images/superb_pages-to-jpg-0001.jpg'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faGoogleDrive } from '@fortawesome/free-brands-svg-icons'
+
 import './home.css'
 import { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
-
+import albraka from '../images/albaraka.jpeg'
+import Inmaa from '../images/Inma.jpeg'
+import Trivium from '../images/Trivium.jpeg'
+import serviceFirst from '../images/serviceFirst.jpeg'
 export const Home = () => {
     useEffect(() => {
         AOS.init({
@@ -30,10 +35,12 @@ export const Home = () => {
                     data-aos-duration="1000" id='aboutUs'>
                     <div class="container px-4 px-lg-5 mb-5" >
                         <div class="container">
+               
                             <div class="row" >
                                 <div class="col mt-5">
                                     <img src={logo} style={{ width: "400px" }} />
                                 </div>
+                                
                                 <div class="col">
                                     <h2 class=" mt-5 title  " >  About us
                                     </h2>
@@ -121,16 +128,71 @@ export const Home = () => {
                                     <img src={img2} style={{ width: "400px" }} />
                                 </div>
                             </div>
+
+                        </div>
+           
+                    </div>
+
+                </div>
+                <section class="page-section " data-aos="fade-up"
+                    data-aos-duration="1000" id='aboutUs'>
+                    <div class="container px-4 px-lg-5 mb-5" >
+                        <div class="container">
+                        <div class="col text-center">
+                                    <h2 class=" mt-5 title  " >  Our Customers
+                                    </h2>
+ 
+  
+                                </div>
+                        <div class="row" >
+ 
+                        <div class="card" style={{"width" : "15rem", "margin": "10px"}}>
+  <img class="card-img-top" src={albraka}  style={{"height" : "10rem" }}alt="Card image cap"/>
+  <div class="card-body">
+  </div>
+</div>
+<div class="card" style={{"width" : "15rem" ,"margin": "10px"}}>
+  <img class="card-img-top" src={Inmaa}  style={{"height" : "10rem" }}alt="Card image cap"/>
+  <div class="card-body">
+  </div>
+</div>
+<div class="card" style={{"width" : "15rem", "margin": "10px"}}>
+  <img class="card-img-top" src={serviceFirst} style={{"height" : "10rem" }} alt="Card image cap"/>
+  <div class="card-body">
+  </div>
+</div>
+<div class="card" style={{"width" : "15rem" ,"margin": "10px"}}>
+  <img class="card-img-top" src={Trivium} style={{"height" : "10rem" }} alt="Card image cap"/>
+  <div class="card-body">
+  </div>
+</div>
+                                
+                          
+                                
+                            </div>
+                  
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
             <div>
-                <a href="https://api.whatsapp.com/send?phone=201558923000&text=Hi" class="whatsapp-button" target="_blank">
+                <div className='col'>
+                <div>
+                <a href="https://api.whatsapp.com/send?phone=201011115889&text=Hi" class="whatsapp-button" target="_blank">
                     {/* <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="botão whatsapp"/> */}
                     <FontAwesomeIcon icon={faWhatsapp} size="4x" />
                 </a>
             </div>
+            <div>
+                <p class="drive-button fixedTitle"> Click To see some of our products on drive cloud</p>
+                <a href="https://1drv.ms/u/s!Arwdu3RLL2-yb5LH96ReA8uVdgs?e=oqjLZd." class="drive-button" target="_blank">
+                    {/* <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="botão whatsapp"/> */}
+                    <FontAwesomeIcon icon={faGoogleDrive} size="4x" />
+                </a>
+            </div>
+                </div>
+            </div>
+     
         </div>
     )
 }

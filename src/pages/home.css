@@ -47,4 +47,18 @@ img {
 }
 .whatsapp-button:hover{
   color: green;
+} 
+.drive-button{
+  position: fixed;  right: 15px; bottom: 80px;
+  color: #ccae77;
+}
+.drive-button:hover{
+  color: green;
+} 
+.fixedTitle{
+  background-color: #ccae77;
+  color: black;
+  right: 80px;
+  font-size: 15px;
+
 }

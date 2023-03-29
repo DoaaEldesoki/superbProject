@@ -24,13 +24,12 @@ export const Footer = () => {
           <h6 class="text-uppercase fw-bold mb-4">
             Contact
           </h6>
-          <p><FontAwesomeIcon  className='icon' icon={faLocationDot} /> 9 Mohamed Badawy st, Nasr City, Cairo, Egypt</p>
-          <p>
-          <FontAwesomeIcon className='icon' icon={faEnvelope} />
+          <div><FontAwesomeIcon  className='icon' icon={faLocationDot} /> 9 Mohamed Badawy st, Nasr City, Cairo, Egypt</div>
+          <div>
+          <FontAwesomeIcon className='icon ' icon={faEnvelope} />
             info@superbforadv.com
-          </p>
-          <p><FontAwesomeIcon className='icon' icon={faPhone} />+ 20 10 111 158 89</p>
-          <p><FontAwesomeIcon className='icon' icon={faPhone} /> + 20 15 589 230 00</p>
+          </div>
+          <div><FontAwesomeIcon className='icon' icon={faPhone} />+ 20 10 111 158 89</div>
         </div>
       </div>
     </div>
