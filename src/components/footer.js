@@ -24,7 +24,7 @@ export const Footer = () => {
           <h6 class="text-uppercase fw-bold mb-4">
             Contact
           </h6>
-          <div><FontAwesomeIcon  className='icon' icon={faLocationDot} /> 9 Mohamed Badawy st, Nasr City, Cairo, Egypt</div>
+          <div><FontAwesomeIcon  className='icon' icon={faLocationDot} /> 44 Ahmed Mohammed Ibrahim, Off Abbas El Akkad Street, Nasr City, Cairo</div>
           <div>
           <FontAwesomeIcon className='icon ' icon={faEnvelope} />
             info@superbforadv.com
